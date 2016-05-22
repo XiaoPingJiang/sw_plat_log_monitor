@@ -1,0 +1,6 @@
+package: pro_monitor
+import:
+- package: github.com/astaxie/beego
+- package: github.com/axgle/mahonia
+- package: github.com/mattn/go-adodb
+- package: github.com/go-ole/go-ole

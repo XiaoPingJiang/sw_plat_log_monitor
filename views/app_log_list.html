@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>应用日志监控</title>
+    <script type="text/javascript" src="/static/easyui/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/easyui/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="/static/js/common.js"></script>
+    <script type="text/javascript" src="/static/js/app_log_list_page.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/easyui/themes/default/easyui.css" />
+    <link rel="stylesheet" type="text/css" href="/static/easyui/themes/icon.css" />
+    <style>
+        body{font-size:12px;overflow: hidden;}
+    </style>
+</head>
+
+<body class="easyui-layout" style="padding:2px;">
+<div data-options="region:'north',border:false" style="height:660px;padding:2px;">
+    <table id="dg-log"></table>
+    <div id="dg-log-toolbar" style="background-color:#fff;">
+        <div style="padding:6px 4px; border-bottom:dotted 1px #ccc;">
+            <table>
+                <tr>
+                    <td>站点:</td>
+                    <td><input id="drp-website" class="easyui-combobox" data-options="valueField:'id',textField:'text',url:'/AppLog/GetWebSiteComboboxJson'"></td>
+                    <td>日志类型:</td>
+                    <td><input id="drp-logtype" class="easyui-combobox" data-options="valueField:'id',textField:'text',url:'/AppLog/GetLogTypeComboboxJson'"></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <a id="btn-readfromfile" href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-reload', plain:true">同步文件(今日)</a>
+            <a id="btn-reload" href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-reload', plain:true">刷新</a>
+            <a id="btn-search" href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-search', plain:true">查询</a>
+        </div>
+    </div>
+</div>
+<div id="log-detail" data-options="region:'center',title:'日志详情'" style="padding:2px;">
+
+</div>
+<script type="text/javascript">
+    AppLogListPage.init();
+</script>
+</body>
+
+</html>

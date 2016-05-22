@@ -1,0 +1,22 @@
+hash: 54791db908db6c0537be05934f9e73d75b44e44139cbbaca2ec81960735c07db
+updated: 2016-05-22T00:56:45.8275009+08:00
+imports:
+- name: github.com/astaxie/beego
+  version: 88c5dfa6ead42e624c2e7d9e04eab6cb2d07412a
+  subpackages:
+  - config
+  - context
+  - grace
+  - logs
+  - session
+  - toolbox
+  - utils
+- name: github.com/axgle/mahonia
+  version: c528b747d92d41ca581a7acf3e604c396fc7c034
+- name: github.com/go-ole/go-ole
+  version: 572eabb84c424e76a0d39d31510dd7dfd62f70b2
+  subpackages:
+  - oleutil
+- name: github.com/mattn/go-adodb
+  version: 452cccbbcfb7906b3cbc512992557c1083e1011b
+devImports: []

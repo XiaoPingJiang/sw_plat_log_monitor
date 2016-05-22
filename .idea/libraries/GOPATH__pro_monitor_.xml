@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;pro_monitor&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../test" />
+      <root url="file://$PROJECT_DIR$/../encode_demo" />
+      <root url="file://$PROJECT_DIR$/../../../golang_project/src/demo" />
+      <root url="file://$PROJECT_DIR$/../glide_demo2" />
+      <root url="file://$PROJECT_DIR$/../glide_demo4" />
+      <root url="file://$PROJECT_DIR$/../glide_demo3" />
+      <root url="file://$PROJECT_DIR$/../test_go" />
+      <root url="file://$PROJECT_DIR$/../glide_demo6" />
+      <root url="file://$PROJECT_DIR$/../glide_demo5" />
+      <root url="file://$PROJECT_DIR$/../glide_demo7" />
+      <root url="file://$PROJECT_DIR$/../glide_demo" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
